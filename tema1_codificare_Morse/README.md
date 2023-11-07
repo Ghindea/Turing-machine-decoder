@@ -5,8 +5,14 @@ Temă realizată în cadrul cursului de Analiza Algoritmilor, anul II, ACS-CTI
 made by: *Daniel Ghindea*, *325CB*
 
 ---
-
-
+Tabela de tranziții a mașinii Turing se găsește în fișierul morse.xlsx. Pentru a o converti în cod mașină și a o rula în [simulatorul Turing](https://turingmachinesimulator.com/) se va folosi comanda:
+```
+python checker.py  --tm morse.xlsx  --output translate.tms
+```
+Pentru rularea checkerului se va folosi comanda
+```py
+python3 checker.py --tm morse.xlsx --run-tests
+```
 
 Mașina Turing parcurge banda care inițial conține doar caractere din mulțimea {" . ", " - ", " * ", " / ", " _ "}. Identificarea literelor pe baza acestor caractere se realizează utilizând următoarea schemă.
 
